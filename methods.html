@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Javascript Arrays Methods</h2>
+    <h2>join() and pop()</h2>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <p id="mythirdpop"></p>
+    <script>
+        var fruits = ["Banana", "Orange","Apple", "Jackfruit"];
+        document.getElementById("myjoin").innerHTML = fruits.join(" % ");
+        document.getElementById("myfirstpop").innerHTML = fruits;
+        fruits.pop();
+        document.getElementById("mysecondpop").innerHTML = fruits;
+        fruits.pop();
+        document.getElementById("mythirdpop").innerHTML = fruits;
+    </script>
+</body>
+</html>
